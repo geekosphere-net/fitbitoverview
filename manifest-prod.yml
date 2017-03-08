@@ -1,0 +1,13 @@
+applications:
+- services:
+  - fitbit_oauth2
+  disk_quota: 1024M
+  host: fitbitoverview
+  name: fitbitoverview
+  path: .
+  domain: crikitfitness.com
+  instances: 1
+  memory: 256M
+  env:
+    env_type: prod
+    NPM_CONFIG_PRODUCTION: true

@@ -1,0 +1,13 @@
+applications:
+- services:
+  - fitbit_oauth2
+  disk_quota: 1024M
+  host: fitbitoverview2-dev
+  name: fitbitoverview2-dev
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
+  env:
+    env_type: dev
+    NPM_CONFIG_PRODUCTION: false
